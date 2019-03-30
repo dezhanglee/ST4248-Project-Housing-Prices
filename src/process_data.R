@@ -1,7 +1,7 @@
 
 housing.data = read.csv("../Data/housing_price.csv", header = T)
 
-dummy.var = data.frame()
+dummy.var = data.frame(2:nrow(housing.data))
 c.name = c()
 
 for (i in 1:13) {
